@@ -22,7 +22,7 @@ import ast
 from tqdm import tqdm
 import twintApi as tw
 
-monitorID = "11553243040"  # juulMonitor twitter filter ID (numeric field)
+monitorID = "###"  # Monitor ID for crimson hexagon monitor (numeric field)
 
 logging.basicConfig(level="INFO", format= util.format, filename=(util.logdir + "/hexagonScrapingLogs.log"))
 # logger = logging.getLogger("logger")
